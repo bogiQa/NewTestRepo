@@ -14,14 +14,5 @@
             <class name="Tests.AndroidLoginTests"/>
         </classes>
     </test>
-    <test name="Test1">
-        <parameter name="platformName" value="Android"/>
-        <parameter name="deviceName" value="pixel_8_pro"/>
-        <parameter name="udid" value="emulator-5556"/>
-        <parameter name="systemPort" value="10001" />
-        <parameter name="chromeDriverPort" value="11001" />
-        <classes>
-            <class name="Tests.AndroidLoginTests"/>
-        </classes>
-    </test>
+
 </suite>
