@@ -62,9 +62,14 @@
                 <configuration>
                     <!-- Suite testng xml file to consider for test execution -->
                     <suiteXmlFiles>
-                        <suiteXmlFile>AndroidTestng.xml</suiteXmlFile>
-                        <suiteXmlFile>iOSTestng.xml</suiteXmlFile>
+                        <suiteXmlFile>iOSTestNg.xml</suiteXmlFile>
                     </suiteXmlFiles>
+<!--                    <properties>-->
+<!--                        <property>-->
+<!--                            <name>suitethreadpoolsize</name>-->
+<!--                            <value>2</value>-->
+<!--                        </property>-->
+<!--                    </properties>-->
                 </configuration>
             </plugin>
             <plugin>

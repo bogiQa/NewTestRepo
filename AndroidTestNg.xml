@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="SauceLabs" parallel="tests">
+<suite name="SauceLabs">
     <listeners>
         <listener class-name="listeners.TestListener"/>
     </listeners>
     <test name="Test">
         <parameter name="platformName" value="Android"/>
-        <parameter name="deviceName" value="pixel_3a"/>
-        <parameter name="udid" value="emulator-5554"/>
+        <parameter name="deviceName" value="pixel_8_pro"/>
+        <parameter name="udid" value="emulator-5556"/>
         <parameter name="systemPort" value="10000" />
         <parameter name="chromeDriverPort" value="11000" />
         <classes>

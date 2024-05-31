@@ -115,7 +115,7 @@ public class BaseTest {
             switch (platformName) {
                 case "Android":
                     caps.setCapability("automationName", props.getProperty("androidAutomationName"));
-                    caps.setCapability("avd", "Pixel_3a_API_34_extension_level_7_arm64-v8a");
+//                    caps.setCapability("avd", "Pixel_3a_API_34_extension_level_7_arm64-v8a");
                     caps.setCapability("appPackage", props.getProperty("androidAppPackage"));
                     caps.setCapability("appActivity", props.getProperty("androidAppActivity"));
                     caps.setCapability("noReset", true);
